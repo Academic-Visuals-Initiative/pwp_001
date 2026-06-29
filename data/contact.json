@@ -1,0 +1,62 @@
+{
+   "type":"contact",
+   "id":"contact",
+   "data":{
+      "heading":"Drop a Line.",
+      "message":"Whether you want to talk coffee chemistry, \nswap chocolate tasting notes, or just tell me where my favorite green mug ended up \u2014 I'm all ears.",
+      "email":"hello@caffeineoverdrive.lab",
+      "best_time_to_email":"Brew Hours: Mornings, \nMonday through Friday (ideally before the second espresso wears off)",
+      "phone":"+1 (555) BREW-420",
+      "department":"Department of Caffeine & Confectionery Studies",
+      "institution":"The Institute of Caffeine Overdrive",
+      "active_hours":{
+         "label":"Brew Hours",
+         "time":"Tuesdays & Thursdays, 10:00 AM - 4:00 PM",
+         "note":"Or whenever the espresso machine is running"
+      },
+      "address":[
+         "The Warm Mug Caf\u00e9",
+         "Second Floor, Window Nook",
+         "42 Roast Lane, Portland, OR 97201"
+      ],
+      "button":"Send a Message",
+      "right":{
+         "type":"form"
+      },
+      "labels":{
+         "email":"Email",
+         "phone":"Phone",
+         "best_time_to_email":"Best Time To Email",
+         "department":"Affiliation",
+         "address":"Address",
+         "active_hours":"ABC"
+      },
+      "google_icons":{
+         "email":"mail",
+         "phone":"phone",
+         "best_time_to_email":"brightness_auto",
+         "department":"account_balance",
+         "address":"location_on",
+         "active_hours":"schedule"
+      },
+      "icons":[
+         {
+            "name":"googlescholar-old",
+            "url":"https://scholar.google.com/"
+         },
+         {
+            "name":"github",
+            "url":"https://github.com/"
+         },
+         {
+            "name":"orcid",
+            "url":"https://orcid.org/"
+         }
+      ]
+   },
+   "emailjs":{
+      "service_id":"your id",
+      "template_id":"your id",
+      "public_key":"your id"
+   }
+}

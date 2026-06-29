@@ -1,0 +1,17 @@
+{
+  "title": "Draft Post — Hidden from Listings",
+  "date": "2026-07-15",
+  "hero": {
+    "src": "https://picsum.photos/seed/draft/1200/500",
+    "alt": "Hidden draft post",
+    "tagline": "A **draft** post that's *hidden* from listings",
+    "caption": "Only accessible via direct link"
+  },
+  "blocks": [
+    { "type": "paragraph", "content": "This post has **\"hide\": true** in the manifest, so it won't appear in the blog listing or homepage preview. But you can still access it directly via the URL." },
+    { "type": "callout", "style": "info", "text": "Use `\"hide\": true` for draft posts, private notes, or unpublished content." },
+    { "type": "heading", "level": 3, "text": "How to access this post" },
+    { "type": "text", "text": "Add `?post=draft-post` to the blog page URL to view this post directly: `pages/blog.html?post=draft-post`" },
+    { "type": "button", "text": "View Example Post", "url": "pages/blog.html?post=welcome", "variant": "outline" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "type":"hero",
+   "id":"hero",
+   "data":{
+      "badge":"Just chilling",
+      "name":"Caffeine",
+      "accent":"Overdrive.",
+      "tagline":"Mostly just making coffee.",
+      "description":"Hey, I'm Bean. Like bean bean yeah! I spend my days brewing espresso, listening to lo-fi beats, and trying to find my lost green mug or keys.",
+      "image":"assets/images/hero/1.webp",
+      "alt":"Coffee beans on a wooden table"
+   }
+}

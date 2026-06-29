@@ -1,0 +1,27 @@
+{
+   "type":"about",
+   "id":"about",
+   "data":{
+      "heading_label":"01 / ORIGIN",
+      "heading":"A Bit About Me",
+      "paragraphs":[
+         "I keep things pretty simple. On a typical day,I make some coffee, try to get some work done, and inevitably get distracted by a cool song or a random video online. My daily workflow is less of a straight line and more of a scenic route, where a simple task can easily stretch into an hour of discovering obscure music genres or reading about trivia I don't actually need to know.\n\n",
+         " My main goal right now is to find my favorite green coffee cup, which seems to have vanished entirely. I have a strong suspicion it is currently sitting in the back of the microwave from a previous reheating attempt, or perhaps hiding behind a towering stack of paperwork I am actively avoiding. Until it turns up, my routine feels slightly incomplete, as drinking coffee from any other vessel just doesn't offer the same comfort.",
+         "In the meantime, I am making do with a mismatched mug and a steady supply of chocolate to keep my motivation levels moderately high. Treating the search for my cup as my primary project for the week keeps me occupied and conveniently distracts me from actual deadlines. Other than that, I am just taking things one day at a time, keeping my expectations realistic, and trying to stay relaxed."
+      ],
+      "skills":[
+         {
+            "category":"Languages",
+            "items":["English (Native)","Sinhala (Native)","Japanese (Conversational)"]
+         },
+         {
+            "category":"Tools",
+            "items":["Python","MATLAB","LaTeX","Git","ChemStation"]
+         },
+         {
+            "category":"Skills",
+            "items":["Coffee Brewing","Extraction Kinetics","Chocolate Rheology","Pour-Over Dynamics","Lab Management"]
+         }
+      ]
+   }
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Welcome to My Blog",
+  "date": "2026-06-23",
+  "hero": { "src": "https://picsum.photos/seed/hero/1200/500", "alt": "Blog banner", "tagline": "A **simple**, *elegant* way to publish content", "taglineSize": "xl", "caption": "Featured image caption", "credit": "Photo: Picsum", "align": "center" },
+  "blocks": [
+    { "type": "epigraph", "text": "You write posts as JSON files, and the page builds itself.", "attribution": "The JSON Blog System" },
+    { "type": "callout", "style": "info", "text": "This is an **info** callout. Use it for general information or context." },
+    { "type": "callout", "style": "tip", "text": "This is a **tip** callout. Helpful advice or best practices go here." },
+    { "type": "callout", "style": "warning", "text": "This is a **warning** callout. Something to be careful about." },
+    { "type": "callout", "style": "error", "text": "This is an **error** callout. Critical issues or mistakes to avoid." },
+    { "type": "accordion", "summary": "Click to expand", "text": "This content is **hidden** until you click the header. Uses native `<details>` element, no JavaScript needed." },
+    { "type": "accordion", "summary": "Start open", "text": "This one starts expanded because `open: true` was set.", "open": true },
+    { "type": "heading", "level": 2, "text": "Getting Started" },
+    { "type": "paragraph", "content": "This is the opening paragraph. The JSON-powered blog system lets you write content as simple JSON files (fn:1). No database, no CMS, no build step — just flat files on a server. You can use *formatting*, **bold text**, ==highlights==, and `inline code` anywhere in your content." },
+    { "type": "paragraph", "content": "Here is the second paragraph with another reference to the first footnote (fn:1) to test multiple citations to the same note. It also introduces the second footnote (fn:2) which explains how the block system works." },
+    { "type": "code", "language": "json", "filename": "posts/hello.json", "code": "{\n  \"title\": \"Hello World\",\n  \"date\": \"2026-07-01\",\n  \"blocks\": [\n    { \"type\": \"paragraph\", \"content\": \"**Hello**, world!\" }\n  ]\n}", "showLineNumbers": true, "highlightLines": [1, 5] },
+    { "type": "pullquote", "layout": "right", "text": "The details are not the details. They make the design.", "attribution": "Charles Eames" },
+    { "type": "list", "style": "bullet", "items": ["**Bold** and *italic* items", "[x] Completed task", "[ ] Pending task", "  Nested child item", "    Deeply nested item"] },
+    { "type": "list", "style": "number", "items": ["First step", "Second step", "  Sub-step A", "  Sub-step B", "    Sub-sub-step", "Third step"] },
+    { "type": "spacer", "height": 20 },
+    { "type": "divider", "style": "double" },
+    { "type": "spacer", "height": 40 },
+    { "type": "audio", "title": "Interview: Community impact", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", "caption": "Recorded at the launch event." },
+    { "type": "divider", "style": "dashed" },
+    { "type": "heading", "level": 3, "text": "Formatting & Footnotes" },
+    { "type": "math", "formula": "\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}", "displayMode": true, "label": "1", "caption": "The Gaussian integral — a fundamental result in probability." },
+    { "type": "math", "formula": "E = mc^2", "displayMode": true, "align": "left", "label": "eq. A.1" },
+    { "type": "image", "src": "https://picsum.photos/seed/mountain/800/400", "layout": "center", "size": "large", "alt": "Mountain landscape", "caption": "A scenic mountain view", "credit": "Photo: Picsum", "lightbox": true, "border": true },
+    { "type": "paragraph", "content": "The third paragraph dives deeper into formatting options. You can use ~~strikethrough~~ for crossed-out text, ++underline++ for emphasis, and ||spoiler|| for hidden content (fn:3). H~2~O shows subscript, and 10^6^ shows superscript." },
+    { "type": "image", "src": "https://picsum.photos/seed/city/600/600", "layout": "left", "size": "medium", "alt": "City夜景", "caption": "City skyline", "text": "This image uses the **left** layout with text beside it. The text supports *formatting* and footnotes (fn:3). On mobile the layout stacks vertically." },
+    { "type": "paragraph", "content": "This is the fourth paragraph. It references the formatting footnote again (fn:3) to verify that the backlink updates correctly between occurrences. It also mentions the architecture footnote (fn:4) for the first time." },
+    { "type": "image", "src": "https://picsum.photos/seed/arch/1200/500", "layout": "full", "alt": "Architecture", "caption": "Full-width image spanning the page", "border": true },
+    { "type": "video", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "caption": "Example YouTube embed" },
+    { "type": "link", "text": "Read the full documentation →", "url": "https://example.com/docs" },
+    { "type": "button", "text": "Learn More", "url": "https://example.com", "align": "center", "variant": "primary" },
+    { "type": "button", "text": "View on GitHub", "url": "https://github.com", "align": "right", "variant": "outline" },
+    { "type": "gallery", "layout": "grid", "columns": 3, "ratio": "square", "images": [
+      { "src": "https://picsum.photos/seed/g1/400/400", "alt": "Mountain", "caption": "Peak" },
+      { "src": "https://picsum.photos/seed/g2/400/400", "alt": "Forest", "caption": "Trail" },
+      { "src": "https://picsum.photos/seed/g3/400/400", "alt": "Lake", "caption": "Water" }
+    ]},
+    { "type": "gallery", "layout": "masonry", "ratio": "portrait", "images": [
+      { "src": "https://picsum.photos/seed/g4/600/800", "alt": "Tall building", "credit": "Arch. Photo" },
+      { "src": "https://picsum.photos/seed/g5/400/400", "alt": "Detail shot" }
+    ]},
+    { "type": "gallery", "layout": "carousel", "images": [
+      { "src": "https://picsum.photos/seed/g6/400/300", "alt": "Product 1" },
+      { "src": "https://picsum.photos/seed/g7/400/300", "alt": "Product 2" },
+      { "src": "https://picsum.photos/seed/g8/400/300", "alt": "Product 3" },
+      { "src": "https://picsum.photos/seed/g9/400/300", "alt": "Product 4" }
+    ]},
+    { "type": "columns", "count": 2, "columns": [
+      { "blocks": [
+        { "type": "heading", "level": 3, "text": "Left Column" },
+        { "type": "text", "text": "This column uses the **text** block with formatted content." },
+        { "type": "list", "items": ["Item one", "Item two", "  Nested item"] }
+      ]},
+      { "blocks": [
+        { "type": "heading", "level": 3, "text": "Right Column" },
+        { "type": "text", "text": "A button below and more content here." },
+        { "type": "button", "text": "Click Here", "url": "https://example.com", "variant": "outline" }
+      ]}
+    ]},
+    { "type": "columns", "count": 3, "columns": [
+      { "blocks": [{ "type": "text", "text": "Column **A**." }]},
+      { "blocks": [{ "type": "text", "text": "Column **B** — medium text." }]},
+      { "blocks": [{ "type": "text", "text": "Column **C** — more text." }]}
+    ]},
+    { "type": "heading", "level": 2, "text": "Architecture & Extensibility" },
+    { "type": "blockquote", "text": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.", "attribution": "Steve Jobs, *Stanford Commencement Address*", "citeUrl": "https://news.stanford.edu/2005/06/14/jobs-061505/" },
+    { "type": "code", "language": "javascript", "filename": "blog.js", "code": "function formatText(str) {\n  return str\n    .replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>')\n    .replace(/\\*(.+?)\\*/g, '<em>$1</em>');\n}", "showLineNumbers": true, "highlightLines": [1, 2] },
+    { "type": "image", "src": "https://picsum.photos/seed/code/400/300", "layout": "right", "size": "small", "alt": "Code screenshot", "text": "This **right** layout image has a `small` size. The image sits on the right and text wraps on the left. Great for screenshots with descriptions." },
+    { "type": "paragraph", "content": "The fifth paragraph contains a reference to the architecture footnote (fn:4) a second time, plus a custom link: {click here|https://example.com}. Bare URLs like https://example.com are auto-linked automatically by the system." },
+    { "type": "paragraph", "content": "Paragraph six is intentionally long to test responsive wrapping. The JSON-powered blog system uses a block-based architecture where each block is rendered independently. This makes it easy to add new block types without modifying existing code (fn:5). The system also supports footnotes with full formatting support." },
+    { "type": "paragraph", "content": "The seventh paragraph references the extensibility footnote (fn:5) again to verify multi-reference behavior across distant paragraphs. Clicking this superscript and then using the backlink should return you exactly here." },
+    { "type": "table", "caption": "Table 1: User demographics (caption at bottom)", "captionPosition": "bottom", "striped": true, "headers": ["Name", "Age", "Role", "Status"], "alignments": ["left", "right", "left", "center"], "rows": [["**Alice**", "30", "Product Manager", "🟢"], ["**Bob**", "25", "Lead Engineer", "🟢"], ["**Carol**", "35", "UI/UX Designer", "🔴"]] },
+    { "type": "table", "caption": "Table 2: Scores (caption at top)", "captionPosition": "top", "headers": ["Player", "Score"], "alignments": ["left", "right"], "rows": [["Alice", "95"], ["Bob", "87"], ["Carol", "92"]] },
+    { "type": "heading", "level": 4, "text": "Advanced Usage" },
+    { "type": "paragraph", "content": "Paragraph eight references the first footnote one more time (fn:1) and also the second footnote (fn:2). Three different footnotes in one paragraph to really test the backlink targeting." },
+    { "type": "paragraph", "content": "This is the ninth paragraph. It only contains a single reference to the architecture footnote (fn:4) for the third time. By now you should have enough footnotes to properly test the backlink behavior." },
+    { "type": "paragraph", "content": "The tenth and final paragraph wraps things up. The JSON-powered blog system is designed to be simple yet powerful (fn:5). Just write JSON files, register them in posts.json, and the page builds itself. No build step, no database, no CMS." }
+  ],
+  "footnotes": [
+    { "id": "1", "text": "The JSON-powered blog system uses a block-based architecture. Each post is a JSON file with a blocks array containing typed block objects." },
+    { "id": "2", "text": "Blocks are rendered by the renderBlock function which switches on the block type. Adding a new block type just requires a new case statement." },
+    { "id": "3", "text": "Formatting is processed by formatText() which converts syntax like **bold**, *italic*, ==highlight==, and `inline code` into HTML tags." },
+    { "id": "4", "text": "The architecture is simple: blog.html loads posts.json, which lists all post files. Clicking a post fetches its JSON and renders the blocks." },
+    { "id": "5", "text": "Extensibility is built in. New block types can be added by creating a case in renderBlock() and adding matching CSS styles." }
+  ]
+}

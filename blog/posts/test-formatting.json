@@ -1,0 +1,100 @@
+{
+    "title": "Complete Formatting Test",
+    "date": "2026-07-01",
+    "hero": {
+        "src": "assets/images/blog/welcome/11.jpg",
+        "alt": "Test hero image",
+        "tagline": "Testing **all** formatting *features* with ***everything*** included",
+        "taglineSize": "xl",
+        "caption": "This is the hero caption",
+        "credit": "Photo: Test",
+        "align": "center"
+    },
+    "blocks": [
+        { "type": "heading", "level": 1, "text": "Heading Level 1" },
+        { "type": "heading", "level": 2, "text": "Heading Level 2" },
+        { "type": "heading", "level": 3, "text": "Heading Level 3" },
+        { "type": "heading", "level": 4, "text": "Heading Level 4" },
+        { "type": "heading", "level": 5, "text": "Heading Level 5" },
+        { "type": "heading", "level": 6, "text": "Heading Level 6" },
+
+        { "type": "paragraph", "content": "This is a standard paragraph with **bold**, *italic*, ***bold+italic***, ~~strikethrough~~, ++underline++, ==highlight==, ||spoiler||, ^superscript^, ~subscript~, and `inline code`." },
+        { "type": "paragraph", "content": "Custom links: {click here|https://example.com}. Auto-linked URLs: https://example.com. Footnotes reference (fn:1)." },
+        { "type": "paragraph", "content": "Escape test: \\*literal asterisks\\* and \\_literal underscores\\_." },
+
+        { "type": "text", "text": "**Text block** with *formatting* and a footnote (fn:2)." },
+
+        { "type": "image", "src": "assets/images/blog/welcome/3.jpg", "layout": "center", "size": "large", "alt": "Center layout", "caption": "Center layout, large size", "border": true, "lightbox": true },
+        { "type": "image", "src": "assets/images/blog/welcome/4.jpg", "layout": "left", "size": "medium", "alt": "Left layout", "caption": "Left with text", "text": "This is **text** beside a *left-aligned* image with medium size." },
+        { "type": "image", "src": "assets/images/blog/welcome/5.jpg", "layout": "right", "size": "small", "alt": "Right layout", "caption": "Right with text", "text": "This is **text** beside a *right-aligned* image with small size." },
+        { "type": "image", "src": "assets/images/blog/welcome/3.jpg", "layout": "full", "alt": "Full width", "caption": "Full width layout, no size constraint", "border": true },
+        { "type": "image", "src": "assets/images/blog/welcome/4.jpg", "layout": "center", "alt": "Aspect ratio test", "aspectRatio": "16/9", "border": true, "caption": "16:9 aspect ratio crop" },
+        { "type": "image", "src": "assets/images/blog/welcome/5.jpg", "layout": "center", "alt": "Clickable image", "link": "https://example.com", "target": "_blank", "caption": "Click to visit link" },
+
+        { "type": "pullquote", "layout": "center", "text": "This is a **centered** pullquote with *formatting*.", "attribution": "Dr. Test" },
+        { "type": "pullquote", "layout": "left", "text": "Left floating pullquote.", "attribution": "Author", "citeUrl": "https://example.com" },
+        { "type": "pullquote", "layout": "right", "text": "Right floating pullquote with attribution link.", "attribution": "Author Name", "citeUrl": "https://example.com" },
+
+        { "type": "blockquote", "text": "This is a **blockquote** with a *citation*.", "attribution": "Famous Person", "citeUrl": "https://example.com" },
+        { "type": "blockquote", "text": "Blockquote without attribution." },
+
+        { "type": "epigraph", "layout": "right", "text": "Epigraph **text** here.", "attribution": "Source" },
+        { "type": "epigraph", "layout": "center", "text": "Centered epigraph.", "attribution": "Another Source" },
+
+        { "type": "code", "language": "javascript", "filename": "test.js", "code": "function hello() {\n  console.log('Hello World');\n}\n\nhello();", "showLineNumbers": true, "highlightLines": [1, 3], "enableCopy": true },
+        { "type": "code", "language": "json", "filename": "config.json", "code": "{\n  \"name\": \"test\",\n  \"version\": \"1.0\"\n}", "showLineNumbers": false },
+
+        { "type": "table", "caption": "Test Table", "striped": true, "headers": ["Name", "Age", "Role"], "alignments": ["left", "center", "right"], "rows": [["**Alice**", "30", "Admin"], ["**Bob**", "25", "User"], ["**Carol**", "35", "Editor"]] },
+        { "type": "table", "caption": "Caption Top Test", "captionPosition": "top", "headers": ["A", "B"], "rows": [["1", "2"], ["3", "4"]] },
+
+        { "type": "math", "formula": "E = mc^2", "displayMode": true, "label": "1", "caption": "Einstein's equation" },
+        { "type": "math", "formula": "\\int_{a}^{b} f(x) \\, dx", "displayMode": true, "align": "left", "label": "eq.1" },
+        { "type": "math", "formula": "x^2 + y^2 = z^2", "displayMode": false },
+
+        { "type": "list", "style": "bullet", "items": ["**Bold** item", "*Italic* item", "  Nested bullet", "    Deeply nested", "`code` item"] },
+        { "type": "list", "style": "number", "items": ["First step", "Second step", "  Sub-step A", "  Sub-step B", "Third step"] },
+        { "type": "list", "style": "bullet", "items": ["[x] Completed task", "[ ] Pending task", "[ ] Another task", "Regular item"] },
+        { "type": "list", "style": "bullet", "items": [{ "text": "Parent with sublist", "sublist": { "style": "number", "items": ["Ordered child 1", "Ordered child 2"] } }, "Normal item"] },
+
+        { "type": "link", "text": "Visit **Example** Site →", "url": "https://example.com" },
+
+        { "type": "button", "text": "**Primary** Button", "url": "https://example.com", "align": "center", "variant": "primary" },
+        { "type": "button", "text": "*Outline* Button", "url": "https://example.com", "align": "right", "variant": "outline" },
+        { "type": "button", "text": "Left Button", "url": "https://example.com", "align": "left", "variant": "primary" },
+
+        { "type": "video", "url": "https://youtu.be/wDchsz8nmbo?si=J6J1o4ZK6w9RzW9F", "caption": "YouTube test video" },
+        { "type": "video", "url": "https://vimeo.com/1199426848?fl=ip&fe=ec", "caption": "Direct video file" },
+
+        { "type": "gallery", "layout": "grid", "columns": 3, "images": [{ "src": "assets/images/blog/welcome/6.jpg", "alt": "Image 1", "caption": "One" }, { "src": "assets/images/blog/welcome/7.jpg", "alt": "Image 2", "caption": "Two" }, { "src": "assets/images/blog/welcome/8.jpg", "alt": "Image 3", "caption": "Three" }] },
+        { "type": "gallery", "layout": "masonry", "images": [{ "src": "assets/images/blog/welcome/9.jpg", "alt": "Hero" }, { "src": "assets/images/blog/welcome/7.jpg", "alt": "Side" }] },
+        { "type": "gallery", "layout": "carousel", "images": [{ "src": "assets/images/blog/welcome/6.jpg", "alt": "A" }, { "src": "assets/images/blog/welcome/8.jpg", "alt": "B" }, { "src": "assets/images/blog/welcome/7.jpg", "alt": "C" }] },
+
+        { "type": "audio", "title": "Test Audio", "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3", "caption": "Sample audio track" },
+
+        { "type": "divider", "style": "solid" },
+        { "type": "divider", "style": "double" },
+        { "type": "divider", "style": "dashed" },
+
+        { "type": "spacer", "height": 60 },
+
+        { "type": "columns", "count": 2, "columns": [{ "blocks": [{ "type": "heading", "level": 3, "text": "Left Column" }, { "type": "text", "text": "This is the **left** column with *formatted* text." }, { "type": "list", "items": ["Item 1", "Item 2"] }] }, { "blocks": [{ "type": "heading", "level": 3, "text": "Right Column" }, { "type": "button", "text": "Click Me", "url": "https://example.com", "variant": "outline" }, { "type": "text", "text": "Right column text." }] }] },
+        { "type": "columns", "count": 3, "columns": [{ "blocks": [{ "type": "text", "text": "**Col 1**" }] }, { "blocks": [{ "type": "text", "text": "*Col 2*" }] }, { "blocks": [{ "type": "text", "text": "Col 3" }] }] },
+
+        { "type": "callout", "style": "info", "text": "**Info** callout with *formatted* text." },
+        { "type": "callout", "style": "tip", "text": "**Tip:** Always test your formatting." },
+        { "type": "callout", "style": "warning", "text": "**Warning:** Check all edge cases." },
+        { "type": "callout", "style": "error", "text": "**Error:** Something went wrong." },
+
+        { "type": "accordion", "summary": "Click to expand", "text": "Hidden **content** with *formatting* and a footnote (fn:1)." },
+        { "type": "accordion", "summary": "Pre-opened accordion", "text": "This starts **open**.", "open": true },
+
+        { "type": "embed", "src": "https://www.youtube.com/embed/wDchsz8nmbo?si=TLr1M4CdpU9jYLg4", "ratio": "16/9" },
+        { "type": "embed", "src": "https://drive.google.com/file/d/1j_n5jsiVKvNlZmth5Z-mI-xX3_y-ZJA8/preview", "ratio": "16/9" },
+
+        { "type": "paragraph", "content": "All formatting features tested above. Footnotes are referenced throughout (fn:1) and (fn:2)." }
+    ],
+    "footnotes": [
+        { "id": "1", "text": "First footnote with **bold** and {link|https://example.com}." },
+        { "id": "2", "text": "Second footnote with *italic* text." }
+    ]
+}

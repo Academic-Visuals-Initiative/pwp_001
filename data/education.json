@@ -1,0 +1,130 @@
+{
+   "type":"education",
+   "id":"education",
+   "data":{
+      "heading_label":"02 / TIMELINE",
+      "heading":"Education",
+      "description":"My academic experience can be described as many long nights, caffeine overdose and fascination with understanding the mechanisms of how the world functions especially those of coffee and chocolate.\nGradually I have come to an understanding that doing research is basically the process of failure until something starts working the way it should and each failure is an excellent pretext for going down to the department kitchen, making another pot of coffee and starting everything from scratch with another hypothesis.\nAlthough I do not have all the answers yet or even my favorite green mug at the moment I have learned that trying and failing is a natural part of learning process. All in all, as long as there is enough coffee and chocolate, any other obstacle can be overcome.",
+      "items":[
+         {
+            "id":"Asst.Prof.",
+            "tab_num":"01 / Assistant Professor",
+            "spec_label":"Appointment Details",
+            "tab_heading":"Coffee Chemistry & Extraction",
+            "tab_meta":"Caffeine Institute // 2020 \u2014 Present",
+            "title":"Assistant Professor of Coffee Chemistry",
+            "institution":"Department of Molecular Brewing, Caffeine Institute",
+            "highlights_label":"Grants & Awards",
+            "highlights":[
+               "NSF CAREER Award: \u201CPour-Over Dynamics and Thermal Extraction\u201D ($550K)",
+               "National Coffee Association Early Career Research Grant ($75K)"
+            ],
+            "link":{
+               "text":"Lab Website",
+               "url":""
+            },
+            "specs":[
+               {
+                  "key":"TEACHING",
+                  "val":"CHEM 201 \u2014 Intro to Brewing Science\nCHEM 305 \u2014 Advanced Extraction Kinetics\nCHEM 410 \u2014 Caffeine Chemistry Lab"
+               },
+               {
+                  "key":"SERVICE",
+                  "val":"Graduate Admissions Committee (2021\u2013Present)\nUndergraduate Research Coordinator (2022\u2013Present)"
+               },
+               {
+                  "key":"MENTORING",
+                  "val":"Supervised 3 Ph.D. students, 5 M.Sc. theses, and 8 undergraduate research projects"
+               }
+            ]
+         },
+         {
+            "id":"postdoc",
+            "tab_num":"02 / Postdoc",
+            "spec_label":"Credential Specification",
+            "tab_heading":"Chocolate Tempering & Rheology",
+            "tab_meta":"Cocoa Research Lab // 2020 \u2014 2022",
+            "title":"Postdoctoral Researcher in Confectionery Materials Science",
+            "institution":"School of Confectionery Engineering, Cocoa Research Lab",
+            "highlights_label":"Publications & Output",
+            "highlights":[
+               "First-author paper in Journal of Food Engineering (2021)",
+               "Co-authored 3 peer-reviewed articles on chocolate rheology"
+            ],
+            "link":{
+               "text":"Google Scholar",
+               "url":"https://scholar.google.com/"
+            },
+            "specs":[
+               {
+                  "key":"PROJECT",
+                  "val":"Fluid dynamics of molten chocolate: \nevaluating the effect of airflow velocity on surface gloss, snap acoustics, and crystal formation."
+               },
+               {
+                  "key":"COLLABORATORS",
+                  "val":"Nestl\u00e9 Research Center (industry partner)\nETH Zurich \u2014 Food Process Engineering"
+               },
+               {
+                  "key":"TECHNIQUES",
+                  "val":"Rheometry, differential scanning calorimetry, X-ray diffraction, acoustic emission testing"
+               }
+            ]
+         },
+         {
+            "id":"phd",
+            "tab_num":"03 / Ph.D.",
+            "spec_label":"Credential Specification",
+            "tab_heading":"Caffeine Chemistry",
+            "tab_meta":"Bean University // 2022",
+            "title":"Doctor of Philosophy in Caffeine Chemistry",
+            "institution":"Department of Molecular Brewing, Bean University",
+            "link":{
+               "text":"Read Dissertation",
+               "url":"https://example.edu/phd"
+            },
+            "specs":[
+               {
+                  "key":"DISSERTATION",
+                  "val":"Kinetic modeling of caffeine extraction: temperature, pressure, and grind size as control variables in pour-over thermodynamics."
+               },
+               {
+                  "key":"ADVISORY BOARD",
+                  "val":"Dr. Percolator (Chair), Prof. French Press, Dr. Moka Pot"
+               },
+               {
+                  "key":"METHODOLOGY",
+                  "val":"Liquid chromatography, spectroscopic profiling, double-blind cupping trials."
+               }
+            ]
+         },
+         {
+            "id":"msc",
+            "tab_num":"04 / M.Sc.",
+            "spec_label":"Credential Specification",
+            "tab_heading":"Chocolate Aerodynamics",
+            "tab_meta":"Cocoa Institute // 2018",
+            "title":"Master of Science in Chocolate Aerodynamics",
+            "institution":"School of Confectionery Engineering, Cocoa Institute",
+            "start":"2016",
+            "end":"2018",
+            "location":"Zurich, Switzerland",
+            "link":{
+               "text":"View Thesis",
+               "url":"https://example.edu/msc"
+            }
+         },
+         {
+            "id":"ba",
+            "tab_num":"05 / B.A.",
+            "spec_label":"Credential Specification",
+            "tab_heading":"Coffeehouse Philosophy",
+            "tab_meta":"Cafe College // 2016",
+            "title":"Bachelor of Arts in Coffeehouse Philosophy",
+            "institution":"Department of Existential Brewing, Cafe College",
+            "start":"2012",
+            "end":"2016",
+            "location":"Seattle, WA"
+         }
+      ]
+   }
+}

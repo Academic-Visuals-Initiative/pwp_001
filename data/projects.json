@@ -1,0 +1,67 @@
+{
+   "type":"projects",
+   "id":"projects",
+   "data":{
+      "heading_label":"Hobbies & Experiments",
+      "heading":"My Projects",
+      "tagline":"Just some simple things I'm playing around with.",
+      "view_all":{
+         "label":"See More Projects",
+         "url":"https://example.com/"
+      },
+      "featured":[
+         {
+            "image":"assets/images/projects/featured/featured1.jpg",
+            "alt":"A cozy desk setup with coffee and plants",
+            "title":"Building the Perfect Cozy Desk Setup",
+            "description":"I'm slowly curating the ultimate work corner \u2014 warm lighting, a plant that's still alive, and just enough space for coffee and scribbles.",
+            "status":"Active",
+            "url":"https://example.com/",
+            "btn_label":"See Progress"
+         },
+         {
+            "image":"",
+            "alt":"Pouring coffee into a mug",
+            "title":"Mastering the Perfect Pour Over",
+            "description":"After countless trials, I'm getting closer to the ideal brew. Temperature, grind size, and patience \u2014 it's a delicate dance.",
+            "status":"Ongoing",
+            "url":"https://example.com/",
+            "btn_label":"Read Brew Log"
+         }
+      ],
+      "items":[
+         {
+            "image":"",
+            "alt":"A simple blue mug",
+            "title":"Looking for My Mug",
+            "description":"Still searching for my favorite green coffee cup. Let me know if you see it.",
+            "status":"Ongoing",
+            "url":"https://example.com/"
+         },
+         {
+            "image":"assets/images/projects/regular/regular1.jpg",
+            "alt":"A notebook and pen",
+            "title":"Cleaning My Desk",
+            "description":"Trying to tidy up my workspace so I have more room for snacks.",
+            "status":"Planning",
+            "url":""
+         },
+         {
+            "image":"assets/images/projects/regular/regular2.jpg",
+            "alt":"Coffee beans on a table",
+            "title":"Trying New Coffee",
+            "description":"Testing out a few different coffee bags from the local market.",
+            "status":"Active",
+            "url":"https://example.com/"
+         },
+         {
+            "image":"assets/images/projects/regular/regular3.jpg",
+            "alt":"A laptop on a clean desk",
+            "title":"Unplugging More",
+            "description":"Trying to spend an hour a day without looking at any screens.",
+            "status":"Active",
+            "url":"https://example.com/"
+         }
+      ]
+   }
+}

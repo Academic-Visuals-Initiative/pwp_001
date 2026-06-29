@@ -1,0 +1,177 @@
+{
+   "type":"publications",
+   "id":"publications",
+   "data":{
+      "heading_label":"Readings & Notes",
+      "heading":[
+         "Selected",
+         "Publications"
+      ],
+      "focus":"A curated collection of studies on productivity, thermodynamics of waiting, and the perfect playlist\u2014because science should also be enjoyable.",
+      "all_link_label":"View all publications",
+      "all_link":"https://scholar.google.com/",
+      "featured":[
+         {
+            "image":"assets/images/publications/featured/featured1.jpg",
+            "alt":"Coffee and notes on a desk",
+            "badge":"Journal of Procrastination Studies 2023",
+            "tags":[
+               "featured",
+               "popular"
+            ],
+            "title":"How to Look Like You're Working: Techniques for Appearing Productive",
+            "authors":"Overdrive, C. & Percolator, J. (2023)",
+            "paragraphs":[
+               "\nIn the demanding environment of graduate school, maintaining the appearance of constant intellectual progress is essential, and your coffee mug is your most versatile tool. By keeping a cluttered desk piled high with dense journal articles, strategically weighted down by a half-empty mug to create authentic coffee rings, you signal to passing advisors that you are deep in a literature review. When anyone approaches, simply stare intensely at a complex chart, take a slow sip of the lukewarm brew, and mutter something vague about \u201cmethodological limitations.\u201d This simple setup reframes your morning caffeine routine as a rigorous, uninterrupted research session.\n\n"
+            ],
+            "links":[
+               {
+                  "icon":"download",
+                  "label":"Full Research Paper",
+                  "info":"PDF \u2022 8.2 MB \u2022 English",
+                  "url":"assets/cv.pdf",
+                  "download":true,
+                  "iconBtns":[
+                     {
+                        "icon":"open_in_new",
+                        "url":"https://example.com/"
+                     },
+                     {
+                        "icon":"bookmark",
+                        "url":"https://example.com/"
+                     }
+                  ]
+               },
+               {
+                  "icon":"code",
+                  "label":"Supplementary Code",
+                  "info":"",
+                  "url":"https://www.google.com"
+               },
+               {
+                  "icon":"visibility",
+                  "label":"Online Viewer",
+                  "info":"Interactive Demo",
+                  "url":"pages/blog.html?post=hidden-draft"
+               }
+            ]
+         },
+         {
+            "image":"",
+            "alt":"Coffee and notes on a desk",
+            "badge":"Journal of Procrastination Studies 2023",
+            "tags":[
+               "featured",
+               "popular"
+            ],
+            "title":"How to Look Like You're Working: Techniques for Appearing Productive",
+            "authors":"Overdrive, C. & Percolator, J. (2023)",
+            "paragraphs":[
+               "\nIn the demanding environment of graduate school, maintaining the appearance of constant intellectual progress is essential, and your coffee mug is your most versatile tool. By keeping a cluttered desk piled high with dense journal articles, strategically weighted down by a half-empty mug to create authentic coffee rings, you signal to passing advisors that you are deep in a literature review. When anyone approaches, simply stare intensely at a complex chart, take a slow sip of the lukewarm brew, and mutter something vague about \u201cmethodological limitations.\u201d This simple setup reframes your morning caffeine routine as a rigorous, uninterrupted research session.\n\n"
+            ],
+            "links":[
+               {
+                  "icon":"download",
+                  "label":"Full Research Paper",
+                  "info":"PDF \u2022 8.2 MB \u2022 English",
+                  "url":"assets/cv.pdf",
+                  "download":true,
+                  "iconBtns":[
+                     {
+                        "icon":"open_in_new",
+                        "url":"https://example.com/"
+                     },
+                     {
+                        "icon":"bookmark",
+                        "url":"https://example.com/"
+                     }
+                  ]
+               },
+               {
+                  "icon":"code",
+                  "label":"Supplementary Code",
+                  "info":"",
+                  "url":"https://www.google.com"
+               },
+               {
+                  "icon":"visibility",
+                  "label":"Online Viewer",
+                  "info":"Interactive Demo",
+                  "url":"pages/blog.html?post=hidden-draft"
+               }
+            ]
+         }
+      ],
+      "items":[
+         {
+            "title":"The Kettle Takes Too Long: A Thermodynamic Lament",
+            "authors":"Overdrive, C. (2022)",
+            "summary":"An empirical investigation into the subjective perception of time during water heating, and its correlation with morning caffeine craving intensity.",
+            "journal":"International Symposium on Kitchen Efficiency, 2022",
+            "tags":[
+               "article",
+               "published"
+            ],
+            "image":"",
+            "links":[
+               {
+                  "label":"View",
+                  "icon":"visibility",
+                  "url":"https://doi.org/10.1234/iske.2022.042"
+               },
+               {
+                  "label":"PDF",
+                  "icon":"download",
+                  "url":"assets/cv.pdf",
+                  "download":true
+               }
+            ]
+         },
+         {
+            "title":"Finding a Good Playlist: Algorithmic Approaches to Mood Matching",
+            "authors":"Overdrive, C. & Beats, L. (2021)",
+            "summary":"A review of recommendation algorithms for matching musical ambiance to coffee brewing methods and time of day, revealing a strong tempo-caffeine correlation.",
+            "journal":"Journal of Audio Comfort, 2021",
+            "tags":[
+               "article"
+            ],
+            "image":"",
+            "links":[
+               {
+                  "label":"View",
+                  "icon":"rib_cage",
+                  "url":"https://doi.org/10.1234/jac.2021.008"
+               },
+               {
+                  "label":"Data",
+                  "icon":"planet",
+                  "url":"https://example.com/"
+               }
+            ]
+         },
+         {
+            "title":"Neural Synchronization in Caffeine-Rich Environments",
+            "authors":"Overdrive, C. & Percolator, J. (2020)",
+            "summary":"This study examines collective neuro-signatures of coffee drinkers under deadline pressure, revealing how synchronized caffeine intake correlates with breakthrough ideas in open-plan offices.",
+            "journal":"Journal of Caffeine Neuroscience, 2020",
+            "tags":[
+               "article",
+               "featured"
+            ],
+            "image":"assets/images/publications/regular/regular1.jpg",
+            "links":[
+               {
+                  "label":"View",
+                  "icon":"visibility",
+                  "url":"https://example.com/"
+               },
+               {
+                  "label":"Code",
+                  "icon":"code",
+                  "url":"https://example.com/"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,101 @@
+{
+   "name":"Dr. Coffee Bean",
+   "title":"Dr. Coffee Bean | Just Hanging Out",
+   "favicon":"assets/images/logo.svg",
+   "google_analytics_id":"",
+   "cv":{
+      "enabled":true,
+      "path":"assets/cv.pdf",
+      "viewer":"pages/cv.html",
+      "external_url":"https://dashboard.emailjs.com/sign-up",
+      "mode":"view",
+      "labels":{
+         "view":"View cv",
+         "download":"Download CV",
+         "external":"My lab"
+      }
+   },
+   "sections":[
+      {
+         "file":"hero.json",
+         "id":"hero",
+         "enabled":true,
+         "nav":{
+            "show":false,
+            "label":"Home"
+         }
+      },
+      {
+         "file":"about.json",
+         "id":"about",
+         "enabled":true,
+         "nav":{
+            "show":true,
+            "label":"About Me"
+         }
+      },
+      {
+         "file":"education.json",
+         "id":"education",
+         "enabled":true,
+         "nav":{
+            "show":true,
+            "label":"Education"
+         }
+      },
+      {
+         "file":"publications.json",
+         "id":"publications",
+         "enabled":true,
+         "nav":{
+            "show":true,
+            "label":"Publications"
+         }
+      },
+      {
+         "file":"projects.json",
+         "id":"projects",
+         "enabled":true,
+         "nav":{
+            "show":true,
+            "label":"Projects"
+         }
+      },
+      {
+         "file":"blog/blog.json",
+         "id":"blog",
+         "enabled":false,
+         "nav":{
+            "show":true,
+            "label":"Blog"
+         }
+      },
+      {
+         "file":"contact.json",
+         "id":"contact",
+         "enabled":true,
+         "nav":{
+            "show":true,
+            "label":"Contact"
+         }
+      }
+   ],
+   "footer":{
+      "name":"Dr. Coffee Bean",
+      "tagline":"Just hanging out. \n next line",
+      "links":[
+         {
+            "label":"My Favorite Coffee",
+            "url":""
+         },
+         {
+            "label":"Nap Tips",
+            "url":"https://example.com/"
+         },
+         {
+            "label":"Nap Tips",
+            "url":"https://example.com/"
+         }
+      ]
+   }
+}

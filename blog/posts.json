@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": "welcome",
+      "title": "Welcome to My Blog",
+      "date": "2026-06-23",
+      "file": "../blog/posts/welcome.json",
+      "excerpt": "A journey through flavor, craft, and passion — exploring the art and science of coffee and chocolate, from bean to bar to cup.",
+      "image": "assets/images/blog/welcome/11.jpg",
+      "featured": true
+    },
+    {
+      "id": "tutorial",
+      "title": "Building a REST API with Node.js and Express",
+      "date": "2026-06-25",
+      "file": "../blog/posts/tutorial.json",
+      "excerpt": "Stop guessing and start measuring. A data-driven guide to the perfect pour-over coffee.",
+      "image": "assets/images/blog/tutorial/2.jpg",
+      "featured": true
+    },
+    {
+      "id": "test-formatting",
+      "title": "Complete Formatting Test",
+      "date": "2026-07-01",
+      "file": "../blog/posts/test-formatting.json",
+      "excerpt": "A comprehensive test of every block type and inline formatting feature.",
+      "image": "assets/images/blog/welcome/2.jpg",
+      "featured": true
+    },
+    {
+      "id": "draft-post",
+      "title": "Draft Post — Hidden from Listings",
+      "date": "2026-07-15",
+      "file": "../blog/posts/draft-post.json",
+      "excerpt": "A hidden draft post only accessible via direct URL.",
+      "hide": true
+    }
+  ]
+}
